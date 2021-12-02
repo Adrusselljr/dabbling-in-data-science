@@ -24,13 +24,13 @@ const main = async () => {
                 label: '$ Awarded Amount',
                 data: awardedAmount,
                     backgroundColor: [
-                        'rgba(174, 0, 1)'
+                        'rgba(174, 0, 1, 0.5)'
                     ]
             },{
                 label: '$ Adjusted Amount',
                 data: adjustedAdjusted,
                     backgroundColor: [
-                        'rgba(0, 0, 0)'
+                        'rgba(0, 0, 0, 1)'
                     ]
             }]
         }
